@@ -1,0 +1,64 @@
+.container
+{
+padding: 10px;
+margin: 10px;
+}
+.container .product-list
+{
+   text-align: left;
+}
+.container .product-list .product h3
+{
+letter-spacing: 2px;
+font-size: 22px;
+}
+.container .product-list .product{
+
+border:1px solid #ccc ;
+height: 200px;
+width: 100%;
+text-align: left;
+border:1px solid #ccc ;
+margin: 20px;
+background-color: azure;
+}
+
+.container .product-list .product p
+{
+font-weight: 700;
+letter-spacing: 3px;
+text-align:left;
+}
+.container .product-list .product img
+{
+width:200px;
+height:150px;
+float: left;
+}
+.container.search
+{
+display: flex;
+padding: 30px 0px;
+justify-content: space-between;
+}
+.container.search h1
+{
+letter-spacing: 3px;
+display: inline-block;
+border-bottom: 2px solid green;
+padding-bottom: 10px;
+}
+.container .search input
+{
+width: 60%;
+padding: 10px 15px;
+border: 1px solid #000;
+font-size: 20px;
+text-transform: capitalize;
+margin: 20px;
+margin-left:50px;
+}
+.container .search input::placeholder
+{
+font-weight:500;
+}

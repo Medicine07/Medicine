@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records Display</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='nutrition.css')}}">
+
+</head>
+<body>
+    <div class="container">
+        <label for="age"></label>
+        <input type="number" id="age" placeholder="Enter Age">
+        <button onclick="showRecords()">Show Records</button>
+    </div>
+
+    <div id="recordsContainer" class="records-container">
+        <!-- Records will be inserted here -->
+    </div>
+
+    <script src="/static/nutrition.js"></script>
+</body>
+</html>

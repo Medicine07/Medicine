@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>search in javascript</title>
+<link rel="stylesheet" href="{{url_for('static',filename='skin.css')}}">
+
+</head>
+<body>
+<div class="container-fluid">
+<div class="container">
+<div class="search">
+<input type="text" name="" id="find" placeholder="search here...." onkeyup="search()">
+</div>
+<div class="product-list">
+     <div class="product"> 
+        <img class="image" src="/static/images/SK1.jpg">
+        <h3>ORGANIC VITAMIN C BRIGHTENING SERUM & DAY CREAM COMBO</h3>
+        <p>HYDRATES SKIN & FADES DARK SPOTS</p>
+     </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk2.jpg">
+        <h3>6-IN-1 BRIGHTENING FACE WASH/KAKADU PLUM</h3>
+        <p>Daily Use vitamin C face wash/ deeply cleaness/brightens skin</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk3.jpg">
+        <h3>MOISTURIZING LIP BUTTER</h3>
+        <p>Lip butter with goodness of roses and red tint</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk4.jpg">
+        <h3>OH SHAMPOO & CONDITIONER-CASTOR OIL-100ML</h3>
+        <p>Damaged hair,preventing hair fall</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk5.jpg">
+        <h3>ORGANIC HARVEST COCONUT CAMBO</h3>
+        <p>Shields hair from sun damage and UV rays strengthens the hair cuticle,protecting against environmental toxins</p>
+      </div>
+      <div class="product">
+        
+        <img class="image" src="/static/images/sk6.jpeg">
+        <h3>EVERYDAY SHAMPOO:COFFEE & WALNUTS 250ML</h3>
+        <p>The anti bacterial and anti-inflamatory properties of the shampoo makes it the go-to remedy for damaged hair.it acts as antioxidant for the scailp and helps deal with hair fall,hair thinning,premature graying,and frizzy hair</p>
+      </div>
+      <div class="product">
+          <img class="image" src="/static/images/sk7.jpeg">
+        <h3>ANTI-DANDRUFF SHAMPOO:APPLE CIDER VINEGAR & TEA TREE-250ML</h3>
+      <p>It acts as an organic anti-oxidant and helps deal with dandruff,damaged hair, split ends and ill-nourished scalp</p> 
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk8.png">
+        <h3>ORGANIC COLOUR PROTECTION SHAMPOO </h3>
+        <p>Hair color Retention</p>
+      </div>
+      <div class="product">
+            <img class="image" src="/static/images/sk9.jpeg">
+        <h3>OH HYDRATING FOAMING BODY WASH-COCONUT</h3>
+        <p>This hydrating body wash's soothing cleaning formula nourishes and moisturizes from within</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk10.jpeg">
+        <h3>EXTRA VIRGIN ORGANIC COCONUT OIL,400ML</h3>
+        <p>Nourishment is important for your whole body from top to bottom so looking for one product that would have it all is a super difficult task</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk11.jpg">
+      <h3>JASMINE LUXURIOUS BATHING BAR-125GMS </h3> 
+       <p>Pamper yourself with organic harvest luxurious bathing bar,exquisitely crafted with jasmine for soft and supple skin</p>
+      </div>
+      <div class="product">
+          <img class="image" src="/static/images/sk12.jpeg">
+      <h3>VITAMIN CSPF 75 DRY TOUCH SUNSCREEN,120ML</h3>
+        <p>Broad-spectrum sun protection infused with skin brightening vitamin C that preserves natural complexion</p>
+      </div>
+      <div class="product">
+          <img class="image" src="/static/images/sk13.jpeg">
+      <h3>ADVANCED YOUTHFUL GLOW FACE CREAM:SAFFRON,OAT MILK & PEACH</h3> 
+       <p>This best anti agening cream provides a smoother even skin tone and reduces dryness and inflammation of the skin</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk14.jpg">
+        <h3>ORGANIC ESSENTIAL OIL:LAVENDER-10ML</h3>
+        <p>Massaging the oil onto your scalp promotes hair growth and keeps dandruff away</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk15.png">
+        <h3>EUCALYPTUS ESSENTIAL OIL-10ML</h3>
+        <p>This essential oilhas a mildly pungent,sweet and fruity aroma,diffused for a stimulating and rejuvenatind environment.It can also be used to improve blood circulation in the scalpmand hence enhance hair growth </p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk16.jpg">
+        <h3>Luxury Bathing Bar Rose, Aloe Vera, Aqua Cool & Chandan Haldi- 50 x 4 gms</h3>
+        <p>Indulge in opulence with Luxury Bathing Bar's exquisite combo pack of Rose, Aloe Vera, Aqua Cool, and Chandan Haldi. Let the delicate essence of fresh roses transport you to a world of serenity, while the soothing Aloe Vera replenishes and rejuvenates your skin.</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk17.jpg">
+        <h3>Gentle Cleansing Bathing Bar: Sandalwood - 125g</h3>
+        <p>Bathing experience never felt so luxurious! Meet the irresistibly fragrant and nourishing Organic Harvest Cleansing Soap, infused with 100% organic sandalwood extracts. The deep-moisturising properties of sandalwood make this toxin-free and skin-friendly bathing bar helps relieve the skin of dryness and improve elasticity with every wash.</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk18.webp">
+        <h3>Egg In Haircare</h3>
+        <p>An egg is not just limited to its direct application on hair. It can also be used in various hair care products to enhance their benefits. Many shampoos, conditioners, and hair masks for hair growth and other haircare concerns contain eggs as a key ingredient</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk19.webp">
+        <h3>Facial At Home</h3>
+        <p>Fruit facials have been gaining popularity in recent years, and for good reason. They’re a natural and rejuvenating way to achieve a glowing complexion without the need for harsh chemicals or expensive treatments. In this guide, we will take you through the benefits of natural fruit facials at home</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk20.webp">
+        <h3>Apple Cider Vinegar For The Skin</h3>
+        <p>Apple cider vinegar (ACV) has gained immense popularity in recent years for its numerous health benefits. While it is well-known for its ability to aid digestion and promote weight loss, Apple Cider Vinegar uses for skin extends beyond the internal body</p>
+      </div>
+      <div class="product">
+        <img class="image" src="/static/images/sk20.webp">
+        <h3>Apple Cider Vinegar For The Skin</h3>
+        <p>Apple cider vinegar (ACV) has gained immense popularity in recent years for its numerous health benefits. While it is well-known for its ability to aid digestion and promote weight loss, Apple Cider Vinegar uses for skin extends beyond the internal body</p>
+      </div>
+</div>
+</div>
+</div>
+</div>
+<!-- javascript -->
+<script type="text/javascript">
+function search() {
+let filter = document.getElementById('find').value.toUpperCase();
+let item = document.querySelectorAll('.product');
+let l = document.getElementsByTagName('h3');
+for(var i = 0;i<=l.length;i++){
+let a=item[i].getElementsByTagName('h3')[0];
+let value=a.innerHTML || a.innerText || a.textContent;
+if(value.toUpperCase().indexOf(filter) > -1) {
+item[i].style.display="";
+}
+else
+{
+item[i].style.display="none";
+}
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.avi{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIcnvA39oCcbe2W7eW3_XhgWujZUlObu0J0A&s') ;
+    background-size: cover;
+}
+.reg{
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(245, 5, 5);
+    font-size: 40px;
+}
+.mk{
+    font-size: x-large; 
+    margin-top: 50px;
+}
+.venu{
+    color:rgb(35, 243, 8);
+}
+
+    

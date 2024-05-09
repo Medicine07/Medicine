@@ -1,0 +1,40 @@
+#searchBar {
+    width:50%;
+    top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing:border-box;
+    margin: 20px;
+}
+.record {
+    position: relative;
+    overflow:auto;
+    border: 1px solid #ccc;
+    background-color:azure;
+    margin:15px;
+}
+
+.record img {
+    width: 200px;
+    height: auto;
+    float: left;
+    background-color: white;
+}
+.record .content {
+    overflow: auto;
+    text-align: left;
+}
+
+.record .content h2 {
+    font-size: 25px;
+    font-family:'Times New Roman';
+    overflow: auto;
+}
+
+.record .content p {
+    font-size: 20px;
+    font-family:  Georgia;
+    overflow: auto;
+}

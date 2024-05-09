@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="{{url_for('static',filename='reg.css')}}">
+
+    <title>Registration Page</title>
+</head>
+<body class="avi">
+    
+    <div class="reg">
+    <h2>Register</h2>
+    <form action="/" method="POST">
+        <label class="venu" for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label class="venu" for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        <b><button class="mk" type="submit">Register</button></b>
+    </form>
+    <p class="venu">Already have an account? <a href="/login">Login</a></p></div>
+</body>
+</html>

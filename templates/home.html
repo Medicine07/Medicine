@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+    
+</head>
+<body background="images\background.png"  background-size="cover">
+    <div class="page-container">
+        <div class="container">
+            <div class="left-column">
+                <a href="/click1">
+                <img src="/static/images/tablets.avif" alt="Image 1"></a>
+                <p>TABLETS</p>
+            </div>
+            <div class="right-column">
+                 <a href="/click2">
+                <img src="/static/images/mk1.avif" alt="Image 2"></a>
+                <p>NUTRITENTS</p>
+            </div>
+            <div class="left-column"> 
+                <a href="/click3">
+                <img src="/static/images/mk3.avif" alt="Image 3"></a>
+                <p>SKINCARE</p>
+            </div>
+            <div class="right-column">
+                <a href="/click4">
+                <img src="/static/images/murali8.png" alt="Image 4"></a>
+                <p>HOMEOPATHY</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
